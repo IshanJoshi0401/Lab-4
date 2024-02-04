@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 1</title>
+    <style>
+        #container{
+            border: 2px solid black;
+            width: 600px;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px 15px black;
+            position: absolute;
+        }
+        #table {
+            border-collapse: collapse;
+            width: 600px;
+            position: relative;
+        }       
+        th, td{
+            border: 2px solid black;
+            padding: 5px;
+        }
+        .tableRow{
+            background-color: yellow;
+            text-align: left;
+        }
+        .tableData{
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table id="table">
+            <tr class="tableRow">
+                <th>Name</th>
+                <th>E-Mail</th>
+                <th>Years of Service</th>
+            </tr>
+            <tr>
+                <td>Joel Murach</td>
+                <td>joelmurach@yahoo.com</td>
+                <td class="tableData">22</td>
+            </tr>
+            <tr class="tableRow">
+                <td>Anne Boehm</td>
+                <td>anne@murach.com</td>
+                <td class="tableData">34</td>
+            </tr>
+            <tr>
+                <td>Zak Ruvalcaba</td>
+                <td>zak@modulemedia.com</td>
+                <td class="tableData">4</td>
+            </tr>
+            <tr class="tableRow">
+                <td>Judy Taylor</td>
+                <td>judy@murach.com</td>
+                <td class="tableData">39</td>
+            </tr>
+            <tr>
+                <td>Cyndi Vasques</td>
+                <td>cyndi@murach.com</td>
+                <td class="tableData">10</td>
+            </tr>
+            <tr class="tableRow">
+                <td>Kelly Slivkoff</td>
+                <td>kelly@murach.com</td>
+                <td class="tableData">25</td>
+            </tr>
+            <tr>
+                <td>Juliette Baylon</td>
+                <td>juliette@murach.com</td>
+                <td class="tableData">1</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
